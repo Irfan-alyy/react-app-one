@@ -44,6 +44,14 @@ A task management app that uses Redux for state management.
   - Uses `Redux Toolkit` for global state management
   - State persists across components
 
+### 6 Image Slider✅
+An image slider with left and right buttons plus indicator buttons.
+
+- **Features:**
+  - Uses api for getting images
+  - left and right key for moving image left and right
+  - indicator for showing which image is open and to jump for certain image by clicking
+
 ## 🛠 Installation & Usage
 1. Clone the repository:
    ```sh
