@@ -1,0 +1,28 @@
+.container{
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    div{
+        width: 50%;
+    }
+    h1{
+        width: fit-content;
+        border: 2px solid greenyellow;
+        border-radius: 10px;
+        cursor: pointer;
+        padding: 5px 10px;
+    }
+    p{
+        background-color: antiquewhite;
+    }
+}
+button{
+    background-color: greenyellow;
+    padding: 5px 10px;
+}
+button:focus{
+    background-color: green;
+}
