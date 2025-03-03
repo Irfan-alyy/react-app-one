@@ -1,12 +1,73 @@
-# React + Vite
+# React Small Apps Collection
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains small React apps that demonstrate various fundamental concepts such as state management, event handling, and UI interactions. Each app is designed to be simple yet effective for learning and practicing React.
 
-Currently, two official plugins are available:
+## 📌 Apps Included
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 1️⃣ Rating App ⭐
+A simple star rating app that allows users to rate by clicking on stars. It uses `useState` for managing the selected rating and hover effects.
 
-## Expanding the ESLint configuration
+- **Features:**
+  - Click on stars to set a rating
+  - Hover over stars to see a preview rating
+  - Uses conditional class names for active/inactive stars
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 2️⃣ Random Background Changer 🎨
+Changes the background color of the webpage randomly when a button is clicked.
+
+- **Features:**
+  - Uses `useState` to track background color
+  - Generates random RGB colors
+  - Simple UI with a button to trigger color change
+
+### 3️⃣ Accordion 📜
+A collapsible accordion component that shows or hides content when clicked.
+
+- **Features:**
+  - Uses `useState` to toggle visibility
+  - Can be extended for multiple items
+  - Simple and responsive design
+
+### 4️⃣ Counter 🔢
+A simple counter app that increments or decrements a number.
+
+- **Features:**
+  - Uses `useState` to track count value
+  - Buttons to increase, decrease, and reset the count
+  - Shows real-time updates
+
+### 5️⃣ To-Do App (Using Redux) ✅
+A task management app that uses Redux for state management.
+
+- **Features:**
+  - Add, remove, and mark tasks as complete
+  - Uses `Redux Toolkit` for global state management
+  - State persists across components
+
+## 🛠 Installation & Usage
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/Irfan-alyy/react-app-one.git
+   cd react-app-one
+   ```
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+3. Run the app:
+   ```sh
+   npm start
+   ```
+
+## 🔗 Technologies Used
+- React.js
+- Redux Toolkit (for To-Do App)
+- React Icons (for Rating App)
+- CSS for styling
+
+## 📜 License
+This project is open-source and available under the MIT License.
+
+---
+💡 *Feel free to explore, modify, and contribute to improve these small but powerful React apps!* 🚀
+
