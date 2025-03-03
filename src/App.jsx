@@ -8,6 +8,7 @@ import Accordion from './components/accordion/Accordion'
 import RandomColor from './components/randomColor/RandomColor'
 import Rating from './components/starRating/Rating'
 import Slider from './components/image-slider/Slider'
+import Products from './components/product-load/Product'
 
 function App() {
   const imagesUrl="https://picsum.photos/v2/list?page=1&limit=10"
@@ -26,7 +27,8 @@ function App() {
       {/* <RandomColor/> */}
       {/* < Rating/> */}
 
-      <Slider  url={imagesUrl}/>
+      {/* <Slider  url={imagesUrl}/> */}
+      <Products/>
     </Provider>
     </>
   )

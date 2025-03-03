@@ -52,6 +52,14 @@ An image slider with left and right buttons plus indicator buttons.
   - left and right key for moving image left and right
   - indicator for showing which image is open and to jump for certain image by clicking
 
+### 7 Load more Products ✅
+A program which fetches products from and api
+
+- **Features:**
+  - Fetchec Products and show them in proper way
+  - load more button for fetching more data 
+  - previous data will not be fetched again and it will remain render, just new data will be render and fetched when click
+
 ## 🛠 Installation & Usage
 1. Clone the repository:
    ```sh
