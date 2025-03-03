@@ -6,6 +6,7 @@ import { Provider } from 'react-redux'
 import Counter from './components/couter/Counter'
 import Accordion from './components/accordion/Accordion'
 import RandomColor from './components/randomColor/RandomColor'
+import Rating from './components/starRating/Rating'
 
 function App() {
 
@@ -20,8 +21,8 @@ function App() {
       <br />
       {/* <Counter/> */}
       {/* <Accordion/> */}
-      <RandomColor/>
-
+      {/* <RandomColor/> */}
+      < Rating/>
     </Provider>
     </>
   )
