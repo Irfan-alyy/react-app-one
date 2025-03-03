@@ -1,0 +1,53 @@
+.container{
+    height: 500px;
+    width: 600px;
+    position: relative;
+
+
+}
+
+.image-container{
+    display: flex;
+}
+.current-image{
+    display: block;
+}
+.hide-image{
+    display:  none   ;
+}
+.left-arrow{
+    position: absolute;
+    left: 2px;
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+}
+.right-arrow{
+    cursor: pointer;
+    position: absolute;
+    right: 2px;
+    color: white;
+    font-size: 40px;
+}
+
+.indicator{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+    
+}
+.current-indicator{
+    background-color: aqua;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.inactive-indicator{
+    background-color: rgb(107, 109, 109);
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
