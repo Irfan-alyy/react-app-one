@@ -9,6 +9,9 @@ import RandomColor from './components/randomColor/RandomColor'
 import Rating from './components/starRating/Rating'
 import Slider from './components/image-slider/Slider'
 import Products from './components/product-load/Product'
+import Memo from './components/usememo/Memo'
+import Reducer from './components/Reducer/Reducer'
+import ReducerTodo from './components/Reducer/Todo'
 
 function App() {
   const imagesUrl="https://picsum.photos/v2/list?page=1&limit=10"
@@ -28,7 +31,10 @@ function App() {
       {/* < Rating/> */}
 
       {/* <Slider  url={imagesUrl}/> */}
-      <Products/>
+      {/* <Products/> */}
+      {/* <Memo/> */}
+      <Reducer />
+      <ReducerTodo/>
     </Provider>
     </>
   )

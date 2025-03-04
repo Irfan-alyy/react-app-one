@@ -60,6 +60,23 @@ A program which fetches products from and api
   - load more button for fetching more data 
   - previous data will not be fetched again and it will remain render, just new data will be render and fetched when click
 
+### 8 useMemo Hook
+Used useMemo hook to avoid re-render of code when it remains unchanged in previous render
+
+- **Features:**
+  - used to avoid a calculation from happening in each render
+  - dependicies for re-perform that code when dependicies state changed 
+  - utilizes useMemo in program for avoiding a computation from happenning in each render which effect web performance
+
+### 9 useReducer Hook
+works as useState hook but it has some benefits, it manages all its state change in one reducer function, helps to debug and overlook state change
+
+- **Features:**
+  - used for complex state mangement
+  - crated a counter app and todo app with useReducer hook,
+  - todo can update previous task with new one
+  
+
 ## 🛠 Installation & Usage
 1. Clone the repository:
    ```sh
