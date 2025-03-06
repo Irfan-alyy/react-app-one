@@ -76,6 +76,17 @@ works as useState hook but it has some benefits, it manages all its state change
   - crated a counter app and todo app with useReducer hook,
   - todo can update previous task with new one
   
+### 10 useRef Hook
+used useRef to maintian a value even after re-render of component, useRef is also used to reference to dom element and maintain that element, 
+- **Features:**
+  - use ref for maintaining a vairable value even after rerrender
+  - use ref dont cause component re-render when its value is changed ,
+  - it is used to manipulate dom elements 
+### 11 axios
+works like fetch method but it is advanced form and have many more features,
+- **Features:**
+  - used axios to get data from omdb api 
+  - ombd provides an api through which we can access movie details, and can be useful for practicing  projects
 
 ## 🛠 Installation & Usage
 1. Clone the repository:

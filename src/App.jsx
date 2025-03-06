@@ -12,6 +12,8 @@ import Products from './components/product-load/Product'
 import Memo from './components/usememo/Memo'
 import Reducer from './components/Reducer/Reducer'
 import ReducerTodo from './components/Reducer/Todo'
+import UseRef from './components/useRef/UseRef'
+import Axios from './components/Axios/Axios'
 
 function App() {
   const imagesUrl="https://picsum.photos/v2/list?page=1&limit=10"
@@ -33,8 +35,10 @@ function App() {
       {/* <Slider  url={imagesUrl}/> */}
       {/* <Products/> */}
       {/* <Memo/> */}
-      <Reducer />
-      <ReducerTodo/>
+      {/* <Reducer />
+      <ReducerTodo/> */}
+      {/* <UseRef/> */}
+      <Axios/>
     </Provider>
     </>
   )
