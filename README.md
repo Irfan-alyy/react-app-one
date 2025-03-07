@@ -88,6 +88,12 @@ works like fetch method but it is advanced form and have many more features,
   - used axios to get data from omdb api 
   - ombd provides an api through which we can access movie details, and can be useful for practicing  projects
 
+### 11 Tree view menu
+a tree like menu where each parent may have children and children may have multiple grandchildren and so on, clicking parent open children menu and toggle it from hidden to visible
+- **Features:**
+  - toggle between hidden and visible
+
+
 ## 🛠 Installation & Usage
 1. Clone the repository:
    ```sh

@@ -14,6 +14,7 @@ import Reducer from './components/Reducer/Reducer'
 import ReducerTodo from './components/Reducer/Todo'
 import UseRef from './components/useRef/UseRef'
 import Axios from './components/Axios/Axios'
+import TreeView from './components/tree-view-menu/menu'
 
 function App() {
   const imagesUrl="https://picsum.photos/v2/list?page=1&limit=10"
@@ -38,7 +39,8 @@ function App() {
       {/* <Reducer />
       <ReducerTodo/> */}
       {/* <UseRef/> */}
-      <Axios/>
+      {/* <Axios/> */}
+        <TreeView/>
     </Provider>
     </>
   )
